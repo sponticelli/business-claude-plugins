@@ -2,7 +2,7 @@
 
 A community-driven marketplace of Claude Code plugins for business development and entrepreneurship.
 
-**9 plugins** | **9 specialized agents** | **36 slash commands**
+**13 plugins** | **13 specialized agents** | **60 slash commands**
 
 ## Installation
 
@@ -51,19 +51,27 @@ claude plugin install idea-validation
 
 ### Operations
 
-*No plugins yet - [contribute one!](docs/CONTRIBUTING.md)*
+| Plugin | Description | Commands |
+|--------|-------------|----------|
+| operations-management | Process optimization, project management, productivity | 6 |
 
 ### Business Strategy
 
-*No plugins yet - [contribute one!](docs/CONTRIBUTING.md)*
+| Plugin | Description | Commands |
+|--------|-------------|----------|
+| strategic-planning | Competitive analysis, growth strategy, OKRs | 6 |
 
 ### Leadership & Management
 
-*No plugins yet - [contribute one!](docs/CONTRIBUTING.md)*
+| Plugin | Description | Commands |
+|--------|-------------|----------|
+| leadership-management | Hiring, performance reviews, executive communication | 6 |
 
 ### Legal & Compliance
 
-*No plugins yet - [contribute one!](docs/CONTRIBUTING.md)*
+| Plugin | Description | Commands |
+|--------|-------------|----------|
+| legal-compliance | Startup legal, compliance, contracts, risk management | 6 |
 
 ## Quick Start
 
@@ -78,11 +86,15 @@ After installing a plugin, use its commands directly in Claude Code:
 ```
 
 ```
-> /pricing-analysis Our product costs $50/month with 40% margins
+> /competitive-analysis Our product vs main competitors
 ```
 
 ```
-> /landing-page Mobile app that helps parents track kids homework
+> /hiring-scorecard Senior Product Manager role
+```
+
+```
+> /compliance-assessment SOC 2 readiness for our SaaS
 ```
 
 Or let Claude automatically use the appropriate agent based on your request:

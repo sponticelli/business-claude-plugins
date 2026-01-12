@@ -1,0 +1,22 @@
+{
+  "name": "operations-management",
+  "description": "Optimize business operations with process analysis, project management, supply chain planning, and team productivity tools",
+  "version": "1.0.0",
+  "author": {
+    "name": "Sandro Ponticelli",
+    "github": "sponticelli"
+  },
+  "repository": "https://github.com/sponticelli/business-claude-plugins",
+  "license": "MIT",
+  "agents": [
+    "./agents/operations-optimizer.md"
+  ],
+  "commands": [
+    "./commands/process-audit.md",
+    "./commands/sop-generator.md",
+    "./commands/project-plan.md",
+    "./commands/resource-allocation.md",
+    "./commands/supply-chain-analysis.md",
+    "./commands/productivity-assessment.md"
+  ]
+}

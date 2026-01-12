@@ -37,7 +37,7 @@
       "name": "operations",
       "description": "Business operations, processes, and systems",
       "icon": "cogs",
-      "plugins": []
+      "plugins": ["operations-management"]
     },
     {
       "id": "finance",
@@ -51,21 +51,21 @@
       "name": "strategy",
       "description": "Strategic planning and competitive analysis",
       "icon": "chess",
-      "plugins": []
+      "plugins": ["strategic-planning"]
     },
     {
       "id": "leadership",
       "name": "leadership",
       "description": "Team management, leadership, and organizational culture",
       "icon": "users",
-      "plugins": []
+      "plugins": ["leadership-management"]
     },
     {
       "id": "legal",
       "name": "legal",
       "description": "Legal considerations and regulatory compliance",
       "icon": "balance-scale",
-      "plugins": []
+      "plugins": ["legal-compliance"]
     }
   ],
   "plugins": [
@@ -194,11 +194,67 @@
       "agents": [],
       "commands": [],
       "tags": ["fundraising", "due-diligence", "term-sheet", "cap-table", "investors"]
+    },
+    {
+      "name": "operations-management",
+      "source": "./plugins/operations/operations-management",
+      "category": "operations",
+      "description": "Optimize business operations with process analysis, project management, supply chain planning, and team productivity tools",
+      "version": "1.0.0",
+      "author": {
+        "name": "Sandro Ponticelli",
+        "github": "sponticelli"
+      },
+      "agents": [],
+      "commands": [],
+      "tags": ["operations", "process", "project-management", "productivity", "supply-chain", "sop"]
+    },
+    {
+      "name": "strategic-planning",
+      "source": "./plugins/strategy/strategic-planning",
+      "category": "strategy",
+      "description": "Strategic planning toolkit for competitive analysis, growth strategy, OKRs, and partnership evaluation",
+      "version": "1.0.0",
+      "author": {
+        "name": "Sandro Ponticelli",
+        "github": "sponticelli"
+      },
+      "agents": [],
+      "commands": [],
+      "tags": ["strategy", "competitive-analysis", "growth", "okr", "swot", "market-entry"]
+    },
+    {
+      "name": "leadership-management",
+      "source": "./plugins/leadership/leadership-management",
+      "category": "leadership",
+      "description": "Leadership toolkit for team building, performance management, executive communication, and leadership development",
+      "version": "1.0.0",
+      "author": {
+        "name": "Sandro Ponticelli",
+        "github": "sponticelli"
+      },
+      "agents": [],
+      "commands": [],
+      "tags": ["leadership", "hiring", "performance", "feedback", "org-design", "executive"]
+    },
+    {
+      "name": "legal-compliance",
+      "source": "./plugins/legal/legal-compliance",
+      "category": "legal",
+      "description": "Legal toolkit for startup legal, compliance frameworks, employment law, and risk management",
+      "version": "1.0.0",
+      "author": {
+        "name": "Sandro Ponticelli",
+        "github": "sponticelli"
+      },
+      "agents": [],
+      "commands": [],
+      "tags": ["legal", "compliance", "contracts", "employment", "ip", "risk", "gdpr", "soc2"]
     }
   ],
   "stats": {
-    "totalPlugins": 9,
-    "totalAgents": 9,
-    "totalCommands": 36
+    "totalPlugins": 13,
+    "totalAgents": 13,
+    "totalCommands": 60
   }
 }

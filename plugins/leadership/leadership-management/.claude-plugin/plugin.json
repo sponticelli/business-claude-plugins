@@ -1,0 +1,22 @@
+{
+  "name": "leadership-management",
+  "description": "Leadership toolkit for team building, performance management, executive communication, and leadership development",
+  "version": "1.0.0",
+  "author": {
+    "name": "Sandro Ponticelli",
+    "github": "sponticelli"
+  },
+  "repository": "https://github.com/sponticelli/business-claude-plugins",
+  "license": "MIT",
+  "agents": [
+    "./agents/leadership-coach.md"
+  ],
+  "commands": [
+    "./commands/hiring-scorecard.md",
+    "./commands/org-design.md",
+    "./commands/performance-review.md",
+    "./commands/feedback-framework.md",
+    "./commands/executive-summary.md",
+    "./commands/leadership-assessment.md"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "strategic-planning",
+  "description": "Strategic planning toolkit for competitive analysis, growth strategy, OKRs, and partnership evaluation",
+  "version": "1.0.0",
+  "author": {
+    "name": "Sandro Ponticelli",
+    "github": "sponticelli"
+  },
+  "repository": "https://github.com/sponticelli/business-claude-plugins",
+  "license": "MIT",
+  "agents": [
+    "./agents/strategy-advisor.md"
+  ],
+  "commands": [
+    "./commands/competitive-analysis.md",
+    "./commands/swot-analysis.md",
+    "./commands/growth-strategy.md",
+    "./commands/market-entry.md",
+    "./commands/okr-framework.md",
+    "./commands/partnership-evaluation.md"
+  ]
+}
