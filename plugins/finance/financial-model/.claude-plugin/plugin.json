@@ -1,6 +1,5 @@
 {
   "name": "financial-model",
-  "displayName": "Financial Model",
   "description": "Build financial projections, unit economics, and runway calculations",
   "version": "1.0.0",
   "author": {
@@ -9,8 +8,6 @@
   },
   "repository": "https://github.com/sponticelli/business-claude-plugins",
   "license": "MIT",
-  "category": "finance",
-  "tags": ["financial-model", "projections", "unit-economics", "runway", "saas-metrics"],
   "agents": [
     "./agents/financial-modeler.md"
   ],
@@ -20,13 +17,5 @@
     "./commands/runway-calculator.md",
     "./commands/scenario-analysis.md",
     "./commands/funding-requirements.md"
-  ],
-  "dependencies": [],
-  "changelog": [
-    {
-      "version": "1.0.0",
-      "date": "2026-01-12",
-      "changes": ["Initial release with revenue projections, unit economics, runway calculator, scenario analysis, and funding requirements"]
-    }
   ]
 }

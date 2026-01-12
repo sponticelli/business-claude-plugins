@@ -1,6 +1,5 @@
 {
   "name": "idea-validation",
-  "displayName": "Startup Idea Validation Framework",
   "description": "Validate startup ideas using a comprehensive 33-metric framework across 5 key dimensions",
   "version": "1.0.0",
   "author": {
@@ -9,8 +8,6 @@
   },
   "repository": "https://github.com/sponticelli/business-claude-plugins",
   "license": "MIT",
-  "category": "entrepreneurship",
-  "tags": ["startup", "validation", "market-research", "business-strategy", "lean-startup", "product-market-fit"],
   "agents": [
     "./agents/idea-validator.md"
   ],
@@ -21,22 +18,5 @@
     "./commands/analyze-product.md",
     "./commands/analyze-financials.md",
     "./commands/analyze-tech.md"
-  ],
-  "dependencies": [],
-  "changelog": [
-    {
-      "version": "1.0.0",
-      "date": "2026-01-12",
-      "changes": [
-        "Full 33-metric validation framework",
-        "5 dimension-specific analysis commands",
-        "Comprehensive scoring guides and output formats"
-      ]
-    },
-    {
-      "version": "0.1.0",
-      "date": "2026-01-12",
-      "changes": ["Initial placeholder"]
-    }
   ]
 }

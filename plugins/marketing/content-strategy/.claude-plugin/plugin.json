@@ -1,6 +1,5 @@
 {
   "name": "content-strategy",
-  "displayName": "Content Strategy",
   "description": "Plan content marketing with topic clusters, calendars, and SEO strategy",
   "version": "1.0.0",
   "author": {
@@ -9,8 +8,6 @@
   },
   "repository": "https://github.com/sponticelli/business-claude-plugins",
   "license": "MIT",
-  "category": "marketing",
-  "tags": ["content", "seo", "marketing", "blogging", "topic-clusters"],
   "agents": [
     "./agents/content-strategist.md"
   ],
@@ -19,13 +16,5 @@
     "./commands/topic-cluster.md",
     "./commands/content-calendar.md",
     "./commands/content-brief.md"
-  ],
-  "dependencies": [],
-  "changelog": [
-    {
-      "version": "1.0.0",
-      "date": "2026-01-12",
-      "changes": ["Initial release with content planning, topic clusters, calendars, and content briefs"]
-    }
   ]
 }

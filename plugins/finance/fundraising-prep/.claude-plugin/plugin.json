@@ -1,6 +1,5 @@
 {
   "name": "fundraising-prep",
-  "displayName": "Fundraising Prep",
   "description": "Prepare for fundraising with due diligence, term sheets, and cap tables",
   "version": "1.0.0",
   "author": {
@@ -9,8 +8,6 @@
   },
   "repository": "https://github.com/sponticelli/business-claude-plugins",
   "license": "MIT",
-  "category": "finance",
-  "tags": ["fundraising", "due-diligence", "term-sheet", "cap-table", "investors"],
   "agents": [
     "./agents/fundraising-advisor.md"
   ],
@@ -19,13 +16,5 @@
     "./commands/term-sheet-analysis.md",
     "./commands/cap-table-scenario.md",
     "./commands/investor-targeting.md"
-  ],
-  "dependencies": [],
-  "changelog": [
-    {
-      "version": "1.0.0",
-      "date": "2026-01-12",
-      "changes": ["Initial release with due diligence checklist, term sheet analysis, cap table scenarios, and investor targeting"]
-    }
   ]
 }

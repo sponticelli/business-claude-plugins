@@ -1,6 +1,5 @@
 {
   "name": "landing-page-copy",
-  "displayName": "Landing Page Copy",
   "description": "Write high-converting landing page copy using proven frameworks",
   "version": "1.0.0",
   "author": {
@@ -9,8 +8,6 @@
   },
   "repository": "https://github.com/sponticelli/business-claude-plugins",
   "license": "MIT",
-  "category": "marketing",
-  "tags": ["copywriting", "landing-page", "conversion", "cta", "headlines"],
   "agents": [
     "./agents/conversion-copywriter.md"
   ],
@@ -18,13 +15,5 @@
     "./commands/landing-page.md",
     "./commands/headline-variations.md",
     "./commands/cta-optimization.md"
-  ],
-  "dependencies": [],
-  "changelog": [
-    {
-      "version": "1.0.0",
-      "date": "2026-01-12",
-      "changes": ["Initial release with landing page copy, headline variations, and CTA optimization"]
-    }
   ]
 }

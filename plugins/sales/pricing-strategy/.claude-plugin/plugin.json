@@ -1,6 +1,5 @@
 {
   "name": "pricing-strategy",
-  "displayName": "Pricing Strategy",
   "description": "Develop pricing strategies using value-based and competitive analysis",
   "version": "1.0.0",
   "author": {
@@ -9,8 +8,6 @@
   },
   "repository": "https://github.com/sponticelli/business-claude-plugins",
   "license": "MIT",
-  "category": "sales",
-  "tags": ["pricing", "monetization", "value-based", "competitive", "strategy"],
   "agents": [
     "./agents/pricing-analyst.md"
   ],
@@ -18,13 +15,5 @@
     "./commands/pricing-analysis.md",
     "./commands/competitive-pricing.md",
     "./commands/price-sensitivity.md"
-  ],
-  "dependencies": [],
-  "changelog": [
-    {
-      "version": "1.0.0",
-      "date": "2026-01-12",
-      "changes": ["Initial release with pricing analysis, competitive benchmarking, and sensitivity analysis"]
-    }
   ]
 }

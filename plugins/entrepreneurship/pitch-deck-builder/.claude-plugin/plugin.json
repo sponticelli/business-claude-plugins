@@ -1,6 +1,5 @@
 {
   "name": "pitch-deck-builder",
-  "displayName": "Pitch Deck Builder",
   "description": "Create compelling investor pitch decks using proven storytelling frameworks",
   "version": "1.0.0",
   "author": {
@@ -9,8 +8,6 @@
   },
   "repository": "https://github.com/sponticelli/business-claude-plugins",
   "license": "MIT",
-  "category": "entrepreneurship",
-  "tags": ["pitch-deck", "fundraising", "investor", "storytelling", "startup"],
   "agents": [
     "./agents/pitch-strategist.md"
   ],
@@ -18,13 +15,5 @@
     "./commands/create-pitch-deck.md",
     "./commands/pitch-story.md",
     "./commands/investor-qa.md"
-  ],
-  "dependencies": [],
-  "changelog": [
-    {
-      "version": "1.0.0",
-      "date": "2026-01-12",
-      "changes": ["Initial release with pitch deck creation, storytelling, and Q&A prep"]
-    }
   ]
 }
