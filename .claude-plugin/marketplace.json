@@ -13,56 +13,56 @@
   "categories": [
     {
       "id": "entrepreneurship",
-      "name": "Entrepreneurship",
+      "name": "entrepreneurship",
       "description": "Starting and validating new business ventures",
       "icon": "rocket",
       "plugins": ["idea-validation", "pitch-deck-builder", "business-model-canvas"]
     },
     {
       "id": "sales",
-      "name": "Sales & Revenue",
+      "name": "sales",
       "description": "Sales processes, lead generation, and closing deals",
       "icon": "chart-line",
       "plugins": ["sales-playbook", "pricing-strategy"]
     },
     {
       "id": "marketing",
-      "name": "Marketing & Growth",
+      "name": "marketing",
       "description": "Marketing strategy, content creation, and growth hacking",
       "icon": "bullhorn",
       "plugins": ["content-strategy", "landing-page-copy"]
     },
     {
       "id": "operations",
-      "name": "Operations",
+      "name": "operations",
       "description": "Business operations, processes, and systems",
       "icon": "cogs",
       "plugins": []
     },
     {
       "id": "finance",
-      "name": "Finance & Accounting",
+      "name": "finance",
       "description": "Financial planning, budgeting, and accounting",
       "icon": "calculator",
       "plugins": ["financial-model", "fundraising-prep"]
     },
     {
       "id": "strategy",
-      "name": "Business Strategy",
+      "name": "strategy",
       "description": "Strategic planning and competitive analysis",
       "icon": "chess",
       "plugins": []
     },
     {
       "id": "leadership",
-      "name": "Leadership & Management",
+      "name": "leadership",
       "description": "Team management, leadership, and organizational culture",
       "icon": "users",
       "plugins": []
     },
     {
       "id": "legal",
-      "name": "Legal & Compliance",
+      "name": "legal",
       "description": "Legal considerations and regulatory compliance",
       "icon": "balance-scale",
       "plugins": []
@@ -71,7 +71,7 @@
   "plugins": [
     {
       "id": "idea-validation",
-      "name": "Startup Idea Validation Framework",
+      "name": "idea-validation",
       "path": "plugins/entrepreneurship/idea-validation",
       "category": "entrepreneurship",
       "description": "Comprehensive 33-metric framework to validate startup ideas across market, product, financial, and technical dimensions",
@@ -86,7 +86,7 @@
     },
     {
       "id": "pitch-deck-builder",
-      "name": "Pitch Deck Builder",
+      "name": "pitch-deck-builder",
       "path": "plugins/entrepreneurship/pitch-deck-builder",
       "category": "entrepreneurship",
       "description": "Create compelling investor pitch decks using proven storytelling frameworks",
@@ -101,7 +101,7 @@
     },
     {
       "id": "business-model-canvas",
-      "name": "Business Model Canvas",
+      "name": "business-model-canvas",
       "path": "plugins/entrepreneurship/business-model-canvas",
       "category": "entrepreneurship",
       "description": "Design and iterate on business models using the Business Model Canvas framework",
@@ -116,7 +116,7 @@
     },
     {
       "id": "sales-playbook",
-      "name": "Sales Playbook",
+      "name": "sales-playbook",
       "path": "plugins/sales/sales-playbook",
       "category": "sales",
       "description": "Create comprehensive sales processes, scripts, and qualification frameworks",
@@ -131,7 +131,7 @@
     },
     {
       "id": "pricing-strategy",
-      "name": "Pricing Strategy",
+      "name": "pricing-strategy",
       "path": "plugins/sales/pricing-strategy",
       "category": "sales",
       "description": "Develop pricing strategies using value-based and competitive analysis",
@@ -146,7 +146,7 @@
     },
     {
       "id": "content-strategy",
-      "name": "Content Strategy",
+      "name": "content-strategy",
       "path": "plugins/marketing/content-strategy",
       "category": "marketing",
       "description": "Plan content marketing with topic clusters, calendars, and SEO strategy",
@@ -161,7 +161,7 @@
     },
     {
       "id": "landing-page-copy",
-      "name": "Landing Page Copy",
+      "name": "landing-page-copy",
       "path": "plugins/marketing/landing-page-copy",
       "category": "marketing",
       "description": "Write high-converting landing page copy using proven frameworks",
@@ -176,7 +176,7 @@
     },
     {
       "id": "financial-model",
-      "name": "Financial Model",
+      "name": "financial-model",
       "path": "plugins/finance/financial-model",
       "category": "finance",
       "description": "Build financial projections, unit economics, and runway calculations",
@@ -191,7 +191,7 @@
     },
     {
       "id": "fundraising-prep",
-      "name": "Fundraising Prep",
+      "name": "fundraising-prep",
       "path": "plugins/finance/fundraising-prep",
       "category": "finance",
       "description": "Prepare for fundraising with due diligence, term sheets, and cap tables",

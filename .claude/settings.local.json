@@ -2,7 +2,9 @@
   "permissions": {
     "allow": [
       "Bash(git -C /Users/sandroponticelli/Personal/business-claude-plugins log --oneline)",
-      "Bash(ls:*)"
+      "Bash(ls:*)",
+      "Bash(find:*)",
+      "Bash(python3:*)"
     ]
   }
 }
