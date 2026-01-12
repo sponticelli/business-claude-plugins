@@ -7,7 +7,7 @@ A community-driven marketplace of Claude Code plugins for business development a
 Add this marketplace to Claude Code:
 
 ```bash
-claude marketplace add https://github.com/sponticelli/business-claude-plugins
+claude marketplace add sponticelli/business-claude-plugins
 ```
 
 Install a specific plugin:
