@@ -7,7 +7,7 @@ This guide shows you how to effectively use Business Claude Plugins in your work
 ### Add the Marketplace
 
 ```bash
-claude marketplace add https://github.com/sponticelli/business-claude-plugins
+claude marketplace add ponticelli/business-claude-plugins
 ```
 
 ### Install a Plugin
