@@ -4,7 +4,7 @@
   "description": "A community-driven plugin marketplace for business development and entrepreneurship",
   "version": "1.0.0",
   "type": "marketplace",
-  "author": {
+  "owner": {
     "name": "Sandro Ponticelli",
     "github": "sponticelli"
   },
@@ -70,9 +70,8 @@
   ],
   "plugins": [
     {
-      "id": "idea-validation",
       "name": "idea-validation",
-      "path": "plugins/entrepreneurship/idea-validation",
+      "source": "plugins/entrepreneurship/idea-validation",
       "category": "entrepreneurship",
       "description": "Comprehensive 33-metric framework to validate startup ideas across market, product, financial, and technical dimensions",
       "version": "1.0.0",
@@ -80,14 +79,13 @@
         "name": "Sandro Ponticelli",
         "github": "sponticelli"
       },
-      "agents": 1,
-      "commands": 6,
+      "agents": [],
+      "commands": [],
       "tags": ["startup", "validation", "market-research", "product-market-fit", "business-strategy", "lean-startup"]
     },
     {
-      "id": "pitch-deck-builder",
       "name": "pitch-deck-builder",
-      "path": "plugins/entrepreneurship/pitch-deck-builder",
+      "source": "plugins/entrepreneurship/pitch-deck-builder",
       "category": "entrepreneurship",
       "description": "Create compelling investor pitch decks using proven storytelling frameworks",
       "version": "1.0.0",
@@ -95,14 +93,13 @@
         "name": "Sandro Ponticelli",
         "github": "sponticelli"
       },
-      "agents": 1,
-      "commands": 3,
+      "agents": [],
+      "commands": [],
       "tags": ["pitch-deck", "investor", "fundraising", "storytelling", "presentation"]
     },
     {
-      "id": "business-model-canvas",
       "name": "business-model-canvas",
-      "path": "plugins/entrepreneurship/business-model-canvas",
+      "source": "plugins/entrepreneurship/business-model-canvas",
       "category": "entrepreneurship",
       "description": "Design and iterate on business models using the Business Model Canvas framework",
       "version": "1.0.0",
@@ -110,14 +107,13 @@
         "name": "Sandro Ponticelli",
         "github": "sponticelli"
       },
-      "agents": 1,
-      "commands": 4,
+      "agents": [],
+      "commands": [],
       "tags": ["business-model", "canvas", "strategy", "pivot", "revenue-model"]
     },
     {
-      "id": "sales-playbook",
       "name": "sales-playbook",
-      "path": "plugins/sales/sales-playbook",
+      "source": "plugins/sales/sales-playbook",
       "category": "sales",
       "description": "Create comprehensive sales processes, scripts, and qualification frameworks",
       "version": "1.0.0",
@@ -125,14 +121,13 @@
         "name": "Sandro Ponticelli",
         "github": "sponticelli"
       },
-      "agents": 1,
-      "commands": 4,
+      "agents": [],
+      "commands": [],
       "tags": ["sales", "playbook", "objection-handling", "qualification", "scripts"]
     },
     {
-      "id": "pricing-strategy",
       "name": "pricing-strategy",
-      "path": "plugins/sales/pricing-strategy",
+      "source": "plugins/sales/pricing-strategy",
       "category": "sales",
       "description": "Develop pricing strategies using value-based and competitive analysis",
       "version": "1.0.0",
@@ -140,14 +135,13 @@
         "name": "Sandro Ponticelli",
         "github": "sponticelli"
       },
-      "agents": 1,
-      "commands": 3,
+      "agents": [],
+      "commands": [],
       "tags": ["pricing", "monetization", "value-based", "competitive", "strategy"]
     },
     {
-      "id": "content-strategy",
       "name": "content-strategy",
-      "path": "plugins/marketing/content-strategy",
+      "source": "plugins/marketing/content-strategy",
       "category": "marketing",
       "description": "Plan content marketing with topic clusters, calendars, and SEO strategy",
       "version": "1.0.0",
@@ -155,14 +149,13 @@
         "name": "Sandro Ponticelli",
         "github": "sponticelli"
       },
-      "agents": 1,
-      "commands": 4,
+      "agents": [],
+      "commands": [],
       "tags": ["content", "seo", "marketing", "blogging", "topic-clusters"]
     },
     {
-      "id": "landing-page-copy",
       "name": "landing-page-copy",
-      "path": "plugins/marketing/landing-page-copy",
+      "source": "plugins/marketing/landing-page-copy",
       "category": "marketing",
       "description": "Write high-converting landing page copy using proven frameworks",
       "version": "1.0.0",
@@ -170,14 +163,13 @@
         "name": "Sandro Ponticelli",
         "github": "sponticelli"
       },
-      "agents": 1,
-      "commands": 3,
+      "agents": [],
+      "commands": [],
       "tags": ["copywriting", "landing-page", "conversion", "cta", "headlines"]
     },
     {
-      "id": "financial-model",
       "name": "financial-model",
-      "path": "plugins/finance/financial-model",
+      "source": "plugins/finance/financial-model",
       "category": "finance",
       "description": "Build financial projections, unit economics, and runway calculations",
       "version": "1.0.0",
@@ -185,14 +177,13 @@
         "name": "Sandro Ponticelli",
         "github": "sponticelli"
       },
-      "agents": 1,
-      "commands": 5,
+      "agents": [],
+      "commands": [],
       "tags": ["financial-model", "projections", "unit-economics", "runway", "saas-metrics"]
     },
     {
-      "id": "fundraising-prep",
       "name": "fundraising-prep",
-      "path": "plugins/finance/fundraising-prep",
+      "source": "plugins/finance/fundraising-prep",
       "category": "finance",
       "description": "Prepare for fundraising with due diligence, term sheets, and cap tables",
       "version": "1.0.0",
@@ -200,8 +191,8 @@
         "name": "Sandro Ponticelli",
         "github": "sponticelli"
       },
-      "agents": 1,
-      "commands": 4,
+      "agents": [],
+      "commands": [],
       "tags": ["fundraising", "due-diligence", "term-sheet", "cap-table", "investors"]
     }
   ],
