@@ -1,0 +1,129 @@
+name: Validate Plugins
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Validate marketplace.json
+        run: |
+          echo "Validating .claude-plugin/marketplace.json..."
+          if ! python3 -m json.tool .claude-plugin/marketplace.json > /dev/null 2>&1; then
+            echo "Error: .claude-plugin/marketplace.json is not valid JSON"
+            exit 1
+          fi
+          echo ".claude-plugin/marketplace.json is valid JSON"
+
+      - name: Validate plugin manifests
+        run: |
+          echo "Validating plugin manifests..."
+          find plugins -name "plugin.json" | while read file; do
+            echo "Checking $file..."
+            if ! python3 -m json.tool "$file" > /dev/null 2>&1; then
+              echo "Error: $file is not valid JSON"
+              exit 1
+            fi
+            echo "$file is valid"
+          done
+
+      - name: Check plugin structure
+        run: |
+          echo "Checking plugin structure..."
+          for plugin_dir in plugins/*/*; do
+            if [ -d "$plugin_dir" ]; then
+              plugin_name=$(basename "$plugin_dir")
+              echo "Checking plugin: $plugin_name"
+
+              # Check for required directories
+              if [ ! -d "$plugin_dir/.claude-plugin" ]; then
+                echo "Error: $plugin_name missing .claude-plugin directory"
+                exit 1
+              fi
+
+              if [ ! -f "$plugin_dir/.claude-plugin/plugin.json" ]; then
+                echo "Error: $plugin_name missing plugin.json"
+                exit 1
+              fi
+
+              if [ ! -d "$plugin_dir/agents" ]; then
+                echo "Error: $plugin_name missing agents directory"
+                exit 1
+              fi
+
+              if [ ! -d "$plugin_dir/commands" ]; then
+                echo "Error: $plugin_name missing commands directory"
+                exit 1
+              fi
+
+              echo "$plugin_name structure is valid"
+            fi
+          done
+
+      - name: Validate agent frontmatter
+        run: |
+          echo "Validating agent files..."
+          find plugins -path "*/agents/*.md" | while read file; do
+            echo "Checking $file..."
+            # Check for YAML frontmatter
+            if ! head -1 "$file" | grep -q "^---$"; then
+              echo "Error: $file missing YAML frontmatter"
+              exit 1
+            fi
+            # Check for required fields
+            if ! grep -q "^name:" "$file"; then
+              echo "Error: $file missing 'name' in frontmatter"
+              exit 1
+            fi
+            if ! grep -q "^description:" "$file"; then
+              echo "Error: $file missing 'description' in frontmatter"
+              exit 1
+            fi
+            echo "$file is valid"
+          done
+
+      - name: Validate command frontmatter
+        run: |
+          echo "Validating command files..."
+          find plugins -path "*/commands/*.md" | while read file; do
+            echo "Checking $file..."
+            # Check for YAML frontmatter
+            if ! head -1 "$file" | grep -q "^---$"; then
+              echo "Error: $file missing YAML frontmatter"
+              exit 1
+            fi
+            # Check for required fields
+            if ! grep -q "^name:" "$file"; then
+              echo "Error: $file missing 'name' in frontmatter"
+              exit 1
+            fi
+            if ! grep -q "^description:" "$file"; then
+              echo "Error: $file missing 'description' in frontmatter"
+              exit 1
+            fi
+            echo "$file is valid"
+          done
+
+      - name: Summary
+        run: |
+          echo "=== Validation Summary ==="
+          echo "Plugins found:"
+          find plugins -name "plugin.json" | wc -l
+          echo "Agents found:"
+          find plugins -path "*/agents/*.md" | wc -l
+          echo "Commands found:"
+          find plugins -path "*/commands/*.md" | wc -l
+          echo "=== All validations passed ==="

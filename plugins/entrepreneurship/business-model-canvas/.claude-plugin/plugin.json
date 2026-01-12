@@ -1,0 +1,31 @@
+{
+  "name": "business-model-canvas",
+  "displayName": "Business Model Canvas",
+  "description": "Design and iterate on business models using the Business Model Canvas framework",
+  "version": "1.0.0",
+  "author": {
+    "name": "Sandro Ponticelli",
+    "github": "sponticelli"
+  },
+  "repository": "https://github.com/sponticelli/business-claude-plugins",
+  "license": "MIT",
+  "category": "entrepreneurship",
+  "tags": ["business-model", "canvas", "strategy", "monetization", "startup"],
+  "agents": [
+    "./agents/business-model-architect.md"
+  ],
+  "commands": [
+    "./commands/create-canvas.md",
+    "./commands/analyze-canvas.md",
+    "./commands/pivot-canvas.md",
+    "./commands/revenue-streams.md"
+  ],
+  "dependencies": [],
+  "changelog": [
+    {
+      "version": "1.0.0",
+      "date": "2026-01-12",
+      "changes": ["Initial release with canvas creation, analysis, pivots, and revenue exploration"]
+    }
+  ]
+}

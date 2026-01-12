@@ -1,0 +1,31 @@
+{
+  "name": "sales-playbook",
+  "displayName": "Sales Playbook",
+  "description": "Create comprehensive sales processes, scripts, and qualification frameworks",
+  "version": "1.0.0",
+  "author": {
+    "name": "Sandro Ponticelli",
+    "github": "sponticelli"
+  },
+  "repository": "https://github.com/sponticelli/business-claude-plugins",
+  "license": "MIT",
+  "category": "sales",
+  "tags": ["sales", "playbook", "scripts", "objections", "qualification", "B2B"],
+  "agents": [
+    "./agents/sales-strategist.md"
+  ],
+  "commands": [
+    "./commands/create-playbook.md",
+    "./commands/objection-handling.md",
+    "./commands/qualification-framework.md",
+    "./commands/sales-script.md"
+  ],
+  "dependencies": [],
+  "changelog": [
+    {
+      "version": "1.0.0",
+      "date": "2026-01-12",
+      "changes": ["Initial release with playbook creation, objection handling, qualification, and scripts"]
+    }
+  ]
+}

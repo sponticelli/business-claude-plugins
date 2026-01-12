@@ -1,0 +1,29 @@
+{
+  "name": "{{plugin-id}}",
+  "displayName": "{{Plugin Display Name}}",
+  "description": "{{Brief description of what this plugin does (under 200 characters)}}",
+  "version": "1.0.0",
+  "author": {
+    "name": "{{Your Name}}",
+    "github": "{{your-github-username}}",
+    "email": "{{optional-email}}"
+  },
+  "repository": "https://github.com/sponticelli/business-claude-plugins",
+  "license": "MIT",
+  "category": "{{category-id}}",
+  "tags": ["{{tag1}}", "{{tag2}}", "{{tag3}}"],
+  "agents": [
+    "./agents/{{agent-name}}.md"
+  ],
+  "commands": [
+    "./commands/{{command-name}}.md"
+  ],
+  "dependencies": [],
+  "changelog": [
+    {
+      "version": "1.0.0",
+      "date": "{{YYYY-MM-DD}}",
+      "changes": ["Initial release"]
+    }
+  ]
+}
