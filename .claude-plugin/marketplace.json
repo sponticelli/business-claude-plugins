@@ -71,7 +71,7 @@
   "plugins": [
     {
       "name": "idea-validation",
-      "source": "plugins/entrepreneurship/idea-validation",
+      "source": "./plugins/entrepreneurship/idea-validation",
       "category": "entrepreneurship",
       "description": "Comprehensive 33-metric framework to validate startup ideas across market, product, financial, and technical dimensions",
       "version": "1.0.0",
@@ -85,7 +85,7 @@
     },
     {
       "name": "pitch-deck-builder",
-      "source": "plugins/entrepreneurship/pitch-deck-builder",
+      "source": "./plugins/entrepreneurship/pitch-deck-builder",
       "category": "entrepreneurship",
       "description": "Create compelling investor pitch decks using proven storytelling frameworks",
       "version": "1.0.0",
@@ -99,7 +99,7 @@
     },
     {
       "name": "business-model-canvas",
-      "source": "plugins/entrepreneurship/business-model-canvas",
+      "source": "./plugins/entrepreneurship/business-model-canvas",
       "category": "entrepreneurship",
       "description": "Design and iterate on business models using the Business Model Canvas framework",
       "version": "1.0.0",
@@ -113,7 +113,7 @@
     },
     {
       "name": "sales-playbook",
-      "source": "plugins/sales/sales-playbook",
+      "source": "./plugins/sales/sales-playbook",
       "category": "sales",
       "description": "Create comprehensive sales processes, scripts, and qualification frameworks",
       "version": "1.0.0",
@@ -127,7 +127,7 @@
     },
     {
       "name": "pricing-strategy",
-      "source": "plugins/sales/pricing-strategy",
+      "source": "./plugins/sales/pricing-strategy",
       "category": "sales",
       "description": "Develop pricing strategies using value-based and competitive analysis",
       "version": "1.0.0",
@@ -141,7 +141,7 @@
     },
     {
       "name": "content-strategy",
-      "source": "plugins/marketing/content-strategy",
+      "source": "./plugins/marketing/content-strategy",
       "category": "marketing",
       "description": "Plan content marketing with topic clusters, calendars, and SEO strategy",
       "version": "1.0.0",
@@ -155,7 +155,7 @@
     },
     {
       "name": "landing-page-copy",
-      "source": "plugins/marketing/landing-page-copy",
+      "source": "./plugins/marketing/landing-page-copy",
       "category": "marketing",
       "description": "Write high-converting landing page copy using proven frameworks",
       "version": "1.0.0",
@@ -169,7 +169,7 @@
     },
     {
       "name": "financial-model",
-      "source": "plugins/finance/financial-model",
+      "source": "./plugins/finance/financial-model",
       "category": "finance",
       "description": "Build financial projections, unit economics, and runway calculations",
       "version": "1.0.0",
@@ -183,7 +183,7 @@
     },
     {
       "name": "fundraising-prep",
-      "source": "plugins/finance/fundraising-prep",
+      "source": "./plugins/finance/fundraising-prep",
       "category": "finance",
       "description": "Prepare for fundraising with due diligence, term sheets, and cap tables",
       "version": "1.0.0",
